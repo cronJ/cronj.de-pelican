@@ -48,3 +48,7 @@ CATEGORY_SAVE_AS = "category/{slug}/index.html"
 
 TAG_URL = "tag/{slug}/"
 TAG_SAVE_AS = "tag/{slug}/index.html"
+
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
+
+GOOGLE_ANALYTICS = "UA-59219605-1"
