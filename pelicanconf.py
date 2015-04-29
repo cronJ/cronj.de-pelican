@@ -31,9 +31,20 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('GitHub', 'https://github.com/cronJ'),
-			 ('Youtube', 'https://www.youtube.com/user/cronj303'),)
+	  ('Youtube', 'https://www.youtube.com/user/cronj303'),)
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+# Formatting for urls
+
+ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
+ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
+
+CATEGORY_URL = "category/{slug}"
+CATEGORY_SAVE_AS = "category/{slug}/index.html"
+
+TAG_URL = "tag/{slug}/"
+TAG_SAVE_AS = "tag/{slug}/index.html"
