@@ -1,7 +1,14 @@
-Title: Impressum
+Title: Über mich
+Slug: about
 Date: 2015-04-28 19:13
 
-##Seitenbetreiber:
+## cronJ
+
+Sowohl beruflich als auch in meiner Freizeit spielt die Elektronik eine große Rolle in meinem Leben. Zusätzlich fotografiere ich gerne, wenn ich dazu komme.
+
+Als Ausgleich zu den technischen Tätigkeiten betreibe ich Aquaristik mit einem 350l Becken und einem kleinen 30l Würfel. Außerdem mag ich es grün in meiner Umgebung. Neben dem normalen Anbau von Paprika und Chilis tüftele ich gerne an hydroponischen Systemen. Auch hier spielen technische Fähigkeiten immer wieder eine Rolle.
+
+##Kontaktdaten:
 
 Alexander Ransmann
 Bleichstraße 27b

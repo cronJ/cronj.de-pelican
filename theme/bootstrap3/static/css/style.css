@@ -74,11 +74,7 @@ body {
     margin-right: 3px;
 }
 
-a {
-	 color: #428bca;
-}
-
-a:hover {
+a, a:hover {
     color: inherit;
 }
 

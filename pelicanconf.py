@@ -15,6 +15,11 @@ DEFAULT_LANG = u'de'
 STATIC_PATHS = ['images']
 
 THEME = 'theme/bootstrap3'
+#BOOTSTRAP_THEME = 'cosmo'
+#BOOTSTRAP_THEME = 'flatly'
+#BOOTSTRAP_THEME = 'lumen'
+BOOTSTRAP_THEME = 'sandstone'
+#BOOTSTRAP_THEME = 'yeti'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -33,7 +38,7 @@ AUTHOR_FEED_RSS = None
 SOCIAL = (('GitHub', 'https://github.com/cronJ'),
 	  ('Youtube', 'https://www.youtube.com/user/cronj303'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -49,6 +54,8 @@ CATEGORY_SAVE_AS = "category/{slug}/index.html"
 TAG_URL = "tag/{slug}/"
 TAG_SAVE_AS = "tag/{slug}/index.html"
 
-DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
+#GOOGLE_ANALYTICS = "UA-59219605-1"
 
-GOOGLE_ANALYTICS = "UA-59219605-1"
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_SIDEBAR = True
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
