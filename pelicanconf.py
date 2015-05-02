@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = u'de'
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'files']
 
 THEME = 'theme/bootstrap3'
 #BOOTSTRAP_THEME = 'cosmo'
@@ -41,7 +41,7 @@ SOCIAL = (('GitHub', 'https://github.com/cronJ'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 # Formatting for urls
 
